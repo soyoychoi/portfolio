@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap");
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 575px) {
   .square h1 span {
     font-size: 3rem !important;
-    font-weight: 400 !important;
+    font-weight: 700 !important;
   }
   #scroll {
     font-size: 0.7rem !important;
@@ -16,6 +16,7 @@
     -webkit-text-stroke: 5px #faa91a !important;
     opacity: 0;
   }
+
   @keyframes fillColor {
     0% {
       color: #ffffff;
@@ -24,7 +25,8 @@
     }
     100% {
       color: #faa91a !important;
-      -webkit-text-stroke: 0px !important;
+      -webkit-text-stroke: 0px #faa91a !important;
+      font-weight: 400 !important;
       opacity: 1;
     }
   }
@@ -32,21 +34,23 @@
     padding-top: 10% !important;
   }
   .row {
-    padding-top: 30% !important;
+    padding-top: 15% !important;
   }
   #arrow1 {
-    padding-top: 4% !important;
-    width: 20% !important;
+    padding-top: 10% !important;
+    width: 10% !important;
   }
   #navi h1 span {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     padding-left: 30% !important;
+  }
+  #navi h1 {
+    line-height: 0.8 !important;
   }
   #blue {
     font-size: 3rem !important;
-    font-weight: 700 !important;
+    font-weight: 900 !important;
   }
-
   #left h3 span {
     font-size: 1.5rem !important;
   }
@@ -66,7 +70,7 @@
     width: 100vw !important;
   }
   #face {
-    width: 80% !important;
+    width: 75% !important;
   }
   .wrapper {
     width: 1500vw !important;
@@ -79,10 +83,17 @@
   }
   .namecard h4 span {
     font-weight: bold !important;
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
   #skillCol h4 span {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
+  }
+  #skillCol h4 {
+    line-height: 1 !important;
+  }
+  #skillCol {
+    max-width: 50% !important;
+    flex: 50% !important;
   }
   #green {
     font-size: 2rem !important;
@@ -147,11 +158,12 @@
     text-align: center !important;
     padding-left: 0% !important;
   }
-  #wisecol3 #caption #left h1 {
-    font-size: 1rem !important;
-  }
   #wisecol3 #caption #left h3 {
     font-size: 0.8rem !important;
+  }
+  #five,
+  #six {
+    background-size: 200% !important;
   }
   .carousel-caption h3 {
     font-size: 0.5rem !important;
@@ -173,7 +185,7 @@
   }
   #explanation p {
     text-align: right !important;
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
   }
   #sakurarow {
     padding-top: 50% !important;
@@ -193,10 +205,10 @@
     font-size: 3rem !important;
   }
   #wisecol3 #caption #left h1 {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
   #wisecol3 #caption #left h3 {
-    font-size: 1rem !important;
+    font-size: 0.7rem !important;
   }
   #orangeOutline {
     color: white;
@@ -212,11 +224,32 @@
     color: white;
     -webkit-text-stroke: 4px #1773b4 !important;
   }
+  #contact .col-sm-12 h4 {
+    font-size: 1rem !important;
+  }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
   .square h1 span {
-    font-size: 7rem !important;
+    font-size: 5rem !important;
     font-weight: 700;
+  }
+  #scroll {
+    font-size: 0.7rem !important;
+  }
+  #so {
+    color: #ffffff;
+    -webkit-text-stroke: 5px #faa91a;
+    opacity: 0;
+  }
+  @keyframes fillColor {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      color: #faa91a;
+      -webkit-text-stroke: 4px #faa91a;
+      opacity: 1;
+    }
   }
   .square {
     width: 70vw !important;
@@ -228,24 +261,27 @@
     max-width: 40% !important;
   }
   #arrow {
-    padding-top: 10% !important;
+    padding-top: 5% !important;
   }
   #arrow1 {
-    padding-top: 2% !important;
-    width: 15% !important;
+    padding-top: 5% !important;
+    width: 10% !important;
   }
   #navi h1 span {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     padding-left: 20% !important;
   }
   #Iam {
     width: 100% !important;
   }
   #blue {
-    font-size: 7rem !important;
+    font-size: 3.5rem !important;
   }
   #left h3 span {
-    font-size: 3rem !important;
+    font-size: 0.9rem !important;
+  }
+  #left h3 {
+    line-height: 0.3 !important;
   }
   #left {
     padding-right: 0px !important;
@@ -257,61 +293,82 @@
     padding-right: 0px !important;
   }
   #para p {
-    font-size: 1.5rem !important;
+    font-size: 0.8rem !important;
   }
   #myportrait {
-    width: 120vw !important;
+    width: 100vw !important;
   }
   #face {
-    width: 80% !important;
+    width: 50% !important;
   }
   .wrapper {
-    width: 1520vw !important;
+    width: 1500vw !important;
   }
   .namecard {
-    width: 40vw !important;
+    width: 30vw !important;
   }
   #right {
-    max-width: 80% !important;
+    max-width: 55% !important;
   }
   .namecard h4 span {
     font-weight: normal !important;
-    font-size: 1.5rem !important;
+    font-size: 0.9rem !important;
+  }
+  .namecard h4 {
+    line-height: 0.8 !important;
+  }
+  #green {
+    font-size: 3rem !important;
   }
   #skillCol {
-    flex: 100% !important;
-    max-width: 100% !important;
+    flex: 50% !important;
+    max-width: 50% !important;
     padding-bottom: 10% !important;
+  }
+  #skillCol h4 {
+    line-height: 0.8 !important;
+  }
+  #skillCol h4 span {
+    font-size: 1rem !important;
+  }
+  #work1 span {
+    font-size: 3rem !important;
   }
   #work2 {
     padding-left: 0.5% !important;
   }
+  #work2 h1 span {
+    font-size: 7rem !important;
+    line-height: 0.8 !important;
+  }
   #workcol p {
-    font-size: 1.05rem !important;
+    font-size: 0.5rem !important;
   }
   #leaf {
     width: 20% !important;
   }
   #mont span {
-    font-size: 7rem !important;
+    font-size: 4rem !important;
   }
   #left #exp,
   #lang,
   #pos {
     padding-left: 10% !important;
+    line-height: 0.8 !important;
   }
   #deed {
     padding-left: 20% !important;
+    line-height: 0.8 !important;
   }
   #left #exp span,
   #lang span,
   #pos span,
   #deed span {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
   #wisecol3 {
-    max-width: 100% !important;
-    flex: 100% !important;
+    max-width: 80% !important;
+    flex: 80% !important;
   }
   #caption {
     margin-top: 0% !important;
@@ -319,39 +376,56 @@
     padding-right: 2% !important;
   }
   .carousel {
+    width: 80% !important;
+  }
+  .carousel {
     height: auto !important;
+  }
+  .carousel-caption h3 {
+    font-size: 1rem !important;
   }
   #choi1 {
     padding-left: 0px !important;
   }
   #wisecol9 {
-    padding-top: 20% !important;
+    padding-top: 0% !important;
     flex: 100% !important;
     max-width: 100% !important;
     text-align: center !important;
     padding-left: 0% !important;
   }
+  #five,
+  #six {
+    background-size: 150% !important;
+  }
   #christmas #left h1 span {
-    font-size: 6rem !important;
+    font-size: 5rem !important;
   }
   #christmas {
-    padding-top: 40% !important;
+    padding-top: 10% !important;
   }
   #explanation {
-    flex: 100% !important;
-    max-width: 100% !important;
-    padding-top: 1% !important;
+    flex: 50% !important;
+    max-width: 50% !important;
+    padding-top: 0% !important;
   }
   #explanation h1 {
-    text-align: right !important;
-    font-size: 1.5rem !important;
-  }
-  #explanation p {
-    text-align: right !important;
+    text-align: left !important;
     font-size: 1rem !important;
   }
+  #explanation p {
+    text-align: left !important;
+    font-size: 0.7rem !important;
+  }
   #sakurarow {
-    padding-top: 50% !important;
+    padding-top: 20% !important;
+  }
+  #sakurarow #left h3 {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+  #wisewallet {
+    width: 80% !important;
   }
   #contact {
     padding-top: 20% !important;
@@ -359,270 +433,221 @@
   #orangeOutline,
   #redOutline,
   #blueOutline {
-    font-size: 5rem !important;
+    font-size: 3rem !important;
   }
   #wisecol3 #caption #left h1 {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
+    line-height: 1 !important;
   }
   #wisecol3 #caption #left h3 {
-    font-size: 1rem !important;
+    font-size: 0.7rem !important;
+    line-height: 1.2 !important;
   }
-}
-@media only screen and (min-width: 681px) {
-  #workcol p {
-    font-size: 1.1rem !important;
+  #orangeOutline {
+    color: white;
+    -webkit-text-stroke: 4px #fbab1a !important;
+  }
+
+  #redOutline {
+    color: white;
+    -webkit-text-stroke: 4px #e74725 !important;
+  }
+
+  #blueOutline {
+    color: white;
+    -webkit-text-stroke: 4px #1773b4 !important;
+  }
+  #contact .col-sm-12 h4 {
+    font-size: 1rem !important;
   }
 }
 
 @media only screen and (min-width: 729px) {
-  .square h1 span {
-    font-size: 8.5rem !important;
-    font-weight: 700;
+  #so {
+    color: #ffffff;
+    -webkit-text-stroke: 5px #faa91a;
+    opacity: 0;
   }
-  .square {
-    width: 70vw !important;
+  @keyframes fillColor {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      color: #faa91a;
+      -webkit-text-stroke: 5px #faa91a;
+      opacity: 1;
+    }
   }
   .square .col-sm-4 {
-    max-width: 60% !important;
+    max-width: 45% !important;
   }
   .square .col-sm-8 {
-    max-width: 40% !important;
+    max-width: 55% !important;
   }
-  #arrow {
-    padding-top: 10% !important;
+  #Iam {
+    width: 100% !important;
   }
-  #arrow1 {
-    padding-top: 2% !important;
-    width: 15% !important;
-  }
-  #navi h1 span {
-    font-size: 2rem !important;
-    padding-left: 20% !important;
+  #blue {
+    font-size: 4.5rem !important;
   }
   #left h3 span {
-    font-size: 2rem !important;
+    font-size: 1.4rem !important;
+  }
+  #left h3 {
+    line-height: 0.3 !important;
   }
   #left {
     padding-right: 0px !important;
   }
   #left h3 {
-    text-align: right !important;
+    text-align: left !important;
+    padding-left: 2% !important;
   }
   #para {
     padding-right: 0px !important;
   }
   #para p {
-    font-size: 1.5rem !important;
+    font-size: 0.8rem !important;
   }
   #myportrait {
-    width: 100vw !important;
+    width: 50vw !important;
+  }
+  #face {
+    width: 80% !important;
   }
   .wrapper {
-    width: 1500vw !important;
+    width: 1450vw !important;
   }
   .namecard {
     width: 30vw !important;
   }
-  #face {
-    width: 70% !important;
+  #right {
+    max-width: 80% !important;
   }
   .namecard h4 span {
-    font-weight: normal !important;
-    font-size: 1.62rem !important;
+    font-weight: bold !important;
+    font-size: 0.7rem !important;
+  }
+  .namecard h4 {
+    line-height: 0.8 !important;
+  }
+  #green {
+    font-size: 3rem !important;
   }
   #skillCol {
-    flex: 100% !important;
-    max-width: 100% !important;
+    flex: 25% !important;
+    max-width: 25% !important;
     padding-bottom: 10% !important;
   }
-  #workcol p {
-    font-size: 1.165rem !important;
-  }
-  #leaf {
-    width: 20% !important;
-  }
-  #mont span {
-    font-size: 7rem !important;
-  }
-  #left #exp,
-  #lang,
-  #pos {
-    padding-left: 10% !important;
-  }
-  #deed {
-    padding-left: 20% !important;
-  }
-  #left #exp span,
-  #lang span,
-  #pos span,
-  #deed span {
-    font-size: 1.5rem !important;
-  }
-  #wisecol3 {
-    max-width: 100% !important;
-    flex: 100% !important;
-  }
-  #caption {
-    margin-top: 0% !important;
-    margin-left: 25% !important;
-    padding-right: 2% !important;
-    width: 40vw !important;
-  }
-  #wisecol9 {
-    padding-top: 20% !important;
-    flex: 100% !important;
-    max-width: 100% !important;
-    text-align: center !important;
-  }
-  .carousel {
-    height: auto !important;
-  }
-  #christmas #left h1 span {
-    font-size: 6rem !important;
-  }
-  #christmas {
-    padding-top: 40% !important;
-  }
-  #explanation {
-    flex: 100% !important;
-    max-width: 100% !important;
-    padding-top: 1% !important;
-  }
-  #explanation h1 {
-    text-align: right !important;
-    font-size: 1.5rem !important;
-  }
-  #explanation p {
-    text-align: right !important;
-    font-size: 1rem !important;
-  }
-  #sakurarow {
-    padding-top: 50% !important;
-  }
-  #contact {
-    padding-top: 20% !important;
-  }
-  #orangeOutline,
-  #redOutline,
-  #blueOutline {
-    font-size: 5rem !important;
-  }
-  #wisecol3 #caption #left h1 {
-    font-size: 1.5rem !important;
-  }
-  #wisecol3 #caption #left h3 {
-    font-size: 1rem !important;
+  #skillCol h4 {
+    line-height: 1.5 !important;
   }
   #skillCol h4 span {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
-}
-
-@media only screen and (min-width: 830px) {
-  .square h1 span {
-    font-size: 8.5rem !important;
-    font-weight: 700;
+  #work1 span {
+    font-size: 3rem !important;
   }
-  .square {
-    width: 70vw !important;
+  #work2 {
+    padding-left: 0.5% !important;
   }
-  .square .col-sm-4 {
-    max-width: 55% !important;
+  #work2 h1 span {
+    font-size: 7rem !important;
+    line-height: 0.8 !important;
   }
-  .square .col-sm-8 {
-    max-width: 45% !important;
-  }
-  .square .col-sm-8 img {
-    width: 100% !important;
-  }
-  #arrow {
-    padding-top: 5%;
-  }
-  #arrow1 {
-    width: 10% !important;
-  }
-  #myportrait {
-    width: 100vw !important;
-  }
-  .wrapper {
-    width: 1500vw !important;
-  }
-  .namecard {
-    width: 30vw !important;
-  }
-  #face {
-    width: 70% !important;
-  }
-  #right {
-    max-width: 70% !important;
-  }
-  .namecard h4 span {
-    font-weight: normal !important;
-    font-size: 1.62rem !important;
+  #workcol img {
+    width: 20% !important;
   }
   #workcol p {
-    font-size: 1.3rem !important;
+    font-size: 0.8rem !important;
   }
   #leaf {
     width: 20% !important;
   }
   #mont span {
-    font-size: 7rem !important;
+    font-size: 4rem !important;
   }
   #left #exp,
   #lang,
   #pos {
-    padding-left: 5% !important;
+    padding-left: 10% !important;
+    line-height: 0.8 !important;
   }
   #deed {
-    padding-left: 10% !important;
+    padding-left: 20% !important;
+    line-height: 0.8 !important;
   }
   #left #exp span,
   #lang span,
   #pos span,
   #deed span {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
   }
   #wisecol3 {
-    max-width: 100% !important;
-    flex: 100% !important;
+    max-width: 80% !important;
+    flex: 80% !important;
   }
   #caption {
     margin-top: 0% !important;
     margin-left: 25% !important;
     padding-right: 2% !important;
   }
-
-  #wisecol9 {
-    padding-top: 10% !important;
-    flex: 100% !important;
-    max-width: 100% !important;
-    text-align: center !important;
+  .carousel {
+    width: 80% !important;
   }
   .carousel {
     height: auto !important;
   }
+  .carousel-caption h3 {
+    font-size: 1rem !important;
+  }
+  #choi1 {
+    padding-left: 0px !important;
+  }
+  #wisecol9 {
+    padding-top: 0% !important;
+    flex: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    padding-left: 0% !important;
+  }
+  #five,
+  #six {
+    background-size: 100% !important;
+  }
   #christmas #left h1 span {
-    font-size: 9rem !important;
+    font-size: 5rem !important;
   }
   #christmas {
-    padding-top: 25% !important;
+    padding-top: 10% !important;
+  }
+  #christmas #left {
+    flex: 50% !important;
+    max-width: 50% !important;
   }
   #explanation {
-    flex: 33% !important;
-    max-width: 33% !important;
+    flex: 50% !important;
+    max-width: 50% !important;
     padding-top: 30% !important;
   }
   #explanation h1 {
     text-align: right !important;
-    font-size: 2rem !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
   }
   #explanation p {
-    text-align: right !important;
-    font-size: 1rem !important;
+    text-align: left !important;
+    font-size: 0.7rem !important;
   }
   #sakurarow {
-    padding-top: 30% !important;
+    padding-top: 20% !important;
+  }
+  #sakurarow #left h3 {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+  #wisewallet {
+    width: 80% !important;
   }
   #contact {
     padding-top: 20% !important;
@@ -630,182 +655,83 @@
   #orangeOutline,
   #redOutline,
   #blueOutline {
-    font-size: 6rem !important;
+    font-size: 3.5rem !important;
   }
   #wisecol3 #caption #left h1 {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
+    line-height: 1 !important;
   }
   #wisecol3 #caption #left h3 {
+    font-size: 0.7rem !important;
+    line-height: 1.2 !important;
+  }
+  #orangeOutline {
+    color: white;
+    -webkit-text-stroke: 5px #fbab1a !important;
+  }
+  #redOutline {
+    color: white;
+    -webkit-text-stroke: 5px #e74725 !important;
+  }
+  #blueOutline {
+    color: white;
+    -webkit-text-stroke: 5px #1773b4 !important;
+  }
+  #contact .col-sm-12 h4 {
     font-size: 1rem !important;
   }
 }
-
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 900px) {
   .square h1 span {
-    font-size: 8.5rem !important;
+    font-size: 6rem !important;
     font-weight: 700;
   }
-  .square {
-    width: 70vw !important;
+  #scroll {
+    font-size: 1rem !important;
+  }
+  #so {
+    color: #ffffff;
+    -webkit-text-stroke: 5px #faa91a;
+    opacity: 0;
+  }
+  @keyframes fillColor {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      color: #faa91a;
+      -webkit-text-stroke: 7px #faa91a;
+      opacity: 1;
+    }
   }
   .square .col-sm-4 {
-    max-width: 50% !important;
+    max-width: 40% !important;
   }
   .square .col-sm-8 {
-    max-width: 50% !important;
-  }
-  #arrow {
-    padding-top: 5%;
-  }
-  #myportrait {
-    width: 100vw !important;
-  }
-  .wrapper {
-    width: 1500vw !important;
-  }
-  .namecard {
-    width: 30vw !important;
-  }
-  #face {
-    width: 60% !important;
-  }
-  #right {
     max-width: 60% !important;
   }
-  .namecard h4 span {
-    font-weight: normal !important;
-    font-size: 1.62rem !important;
+  #arrow {
+    padding-top: 5% !important;
   }
-  #skillCol {
-    flex: 33% !important;
-    max-width: 33% !important;
+  #arrow1 {
+    padding-top: 3% !important;
+    width: 10% !important;
   }
-  #workcol p {
-    font-size: 1.45rem !important;
-  }
-  #leaf {
-    width: 20% !important;
-  }
-  #mont span {
-    font-size: 7rem !important;
-  }
-  #left #exp,
-  #lang,
-  #pos {
-    padding-left: 10% !important;
-  }
-  #deed {
-    padding-left: 20% !important;
-  }
-  #left #exp span,
-  #lang span,
-  #pos span,
-  #deed span {
+  #navi h1 span {
     font-size: 1.5rem !important;
-  }
-  #wisecol3 {
-    max-width: 100% !important;
-    flex: 100% !important;
-  }
-  #caption {
-    margin-top: 0% !important;
-    margin-left: 25% !important;
-    padding-right: 2% !important;
-    width: 30vw !important;
-  }
-
-  #wisecol9 {
-    padding-top: 0% !important;
-    flex: 100% !important;
-    max-width: 100% !important;
-    text-align: center !important;
-  }
-  .carousel {
-    height: auto !important;
-  }
-  #contact {
-    padding-top: 20% !important;
-  }
-  #orangeOutline,
-  #redOutline,
-  #blueOutline {
-    font-size: 6.5rem !important;
-  }
-}
-
-@media only screen and (min-width: 1100px) {
-  .square h1 span {
-    font-size: 8.5rem !important;
-    font-weight: 700;
-  }
-  .square {
-    width: 70vw !important;
-  }
-  .square .col-sm-4 {
-    max-width: 45% !important;
-  }
-  .square .col-sm-8 {
-    max-width: 55% !important;
-  }
-  #arrow {
-    padding-top: 5% !important;
-  }
-  #arrow1 {
-    padding-top: 0px !important;
-  }
-  #navi h1 span {
-    font-size: 3rem !important;
     padding-left: 20% !important;
   }
-  #skillCol {
-    flex: 33% !important;
-    max-width: 33% !important;
+  #Iam {
+    width: 100% !important;
   }
-  #wisecol3 {
-    max-width: 33% !important;
-    flex: 33% !important;
-  }
-  #caption {
-    margin-top: 50% !important;
-    margin-left: 0% !important;
-    width: 20vw !important;
-  }
-  #caption #left h3 {
-    font-size: 1rem !important;
-  }
-  #wisecol9 {
-    padding-top: 0% !important;
-    flex: 67% !important;
-    max-width: 67% !important;
-    text-align: center !important;
-  }
-}
-@media only screen and (min-width: 1115px) {
-  .square h1 span {
-    font-size: 8.5rem !important;
-    font-weight: 700;
-  }
-  .square {
-    width: 70vw !important;
-  }
-  .square .col-sm-4 {
-    max-width: 45% !important;
-  }
-  .square .col-sm-8 {
-    max-width: 55% !important;
-  }
-  #arrow {
-    padding-top: 5% !important;
-  }
-  #arrow1 {
-    padding-top: 0px !important;
-  }
-  #navi h1 span {
-    font-size: 3rem !important;
-    padding-left: 20% !important;
+  #blue {
+    font-size: 5rem !important;
   }
   #left h3 span {
-    font-size: 2.5rem !important;
+    font-size: 1.5rem !important;
+  }
+  #left h3 {
+    line-height: 0.3 !important;
   }
   #left {
     padding-right: 0px !important;
@@ -817,135 +743,13 @@
     padding-right: 0px !important;
   }
   #para p {
-    font-size: 1.7rem !important;
+    font-size: 1.2rem !important;
   }
   #myportrait {
     width: 50vw !important;
-  }
-  .wrapper {
-    width: 1450vw !important;
-  }
-  .namecard {
-    width: 20vw !important;
-  }
-  .namecard h4 span {
-    font-weight: normal !important;
-    font-size: 1.62rem !important;
   }
   #face {
     width: 80% !important;
-  }
-  #right {
-    max-width: 80% !important;
-  }
-  #workcol p {
-    font-size: 1.51rem !important;
-  }
-  #leaf {
-    width: 20% !important;
-  }
-  #mont span {
-    font-size: 7rem !important;
-  }
-  #left #exp,
-  #lang,
-  #pos {
-    padding-left: 15% !important;
-  }
-  #deed {
-    padding-left: 30% !important;
-  }
-  #left #exp span,
-  #lang span,
-  #pos span,
-  #deed span {
-    font-size: 1.5rem !important;
-  }
-  #christmas #left h1 span {
-    font-size: 9rem !important;
-  }
-  #christmas {
-    padding-top: 15% !important;
-  }
-  #explanation {
-    flex: 33% !important;
-    max-width: 33% !important;
-    padding-top: 30% !important;
-  }
-  #explanation h1 {
-    text-align: right !important;
-    font-size: 2rem !important;
-  }
-  #explanation p {
-    text-align: right !important;
-    font-size: 1rem !important;
-  }
-  #sakurarow {
-    padding-top: 15% !important;
-  }
-}
-@media only screen and (min-width: 1300px) {
-  #workcol p {
-    font-size: 1.6rem !important;
-  }
-  #leaf {
-    width: 15% !important;
-  }
-  #mont span {
-    font-size: 8rem !important;
-  }
-  #left #exp,
-  #lang,
-  #pos {
-    padding-left: 15% !important;
-  }
-  #deed {
-    padding-left: 30% !important;
-  }
-  #left #exp span,
-  #lang span,
-  #pos span,
-  #deed span {
-    font-size: 2rem !important;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .square h1 span {
-    font-size: 8.5rem !important;
-    font-weight: 700;
-  }
-  .square {
-    width: 70vw !important;
-  }
-  .square .col-sm-4 {
-    max-width: 35% !important;
-  }
-  .square .col-sm-8 {
-    max-width: 65% !important;
-  }
-  #arrow {
-    padding-top: 3% !important;
-  }
-  #arrow1 {
-    width: 9% !important;
-    padding-bottom: 0% !important;
-  }
-  #navi h1 span {
-    font-size: 3rem !important;
-    padding-left: 20% !important;
-  }
-  #blue {
-    font-size: 10rem !important;
-  }
-  #left h3 span {
-    font-size: 3rem !important;
-  }
-  #para p {
-    font-size: 2rem !important;
-  }
-  #myportrait {
-    width: 50vw !important;
   }
   .wrapper {
     width: 1450vw !important;
@@ -953,71 +757,131 @@
   .namecard {
     width: 30vw !important;
   }
-  .namecard h4 span {
-    font-weight: normal !important;
-    font-size: 2rem !important;
-  }
-  #face {
-    width: 55% !important;
-  }
   #right {
-    max-width: 55% !important;
+    max-width: 80% !important;
+  }
+  .namecard h4 span {
+    font-weight: bold !important;
+    font-size: 0.9rem !important;
+  }
+  .namecard h4 {
+    line-height: 0.8 !important;
+  }
+  #green {
+    font-size: 3rem !important;
+  }
+  #skillCol {
+    flex: 33% !important;
+    max-width: 33% !important;
+    padding-bottom: 33% !important;
+  }
+  #skillCol h4 {
+    line-height: 1.2 !important;
+  }
+  #skillCol h4 span {
+    font-size: 1.2rem !important;
+  }
+  #work1 span {
+    font-size: 3.5rem !important;
+  }
+  #workcol {
+    padding-top: 0.5% !important;
+  }
+  #work2 {
+    padding-left: 0.5% !important;
+  }
+  #work2 h1 span {
+    font-size: 8rem !important;
+    line-height: 0.8 !important;
   }
   #workcol p {
-    font-size: 1.75rem !important;
+    font-size: 1rem !important;
+  }
+  #workcol img {
+    width: 30% !important;
   }
   #leaf {
-    width: 15% !important;
+    width: 20% !important;
   }
   #mont span {
-    font-size: 9rem !important;
+    font-size: 6rem !important;
   }
   #left #exp,
   #lang,
   #pos {
-    padding-left: 15% !important;
+    padding-left: 10% !important;
+    line-height: 0.8 !important;
   }
   #deed {
-    padding-left: 30% !important;
+    padding-left: 20% !important;
+    line-height: 0.8 !important;
   }
   #left #exp span,
   #lang span,
   #pos span,
   #deed span {
-    font-size: 2rem !important;
+    font-size: 1rem !important;
   }
   #wisecol3 {
-    max-width: 33% !important;
-    flex: 33% !important;
+    max-width: 80% !important;
+    flex: 80% !important;
   }
   #caption {
-    margin-top: 65% !important;
-    margin-left: 0% !important;
-    width: 20vw !important;
+    margin-top: 0% !important;
+    margin-left: 25% !important;
+    padding-right: 2% !important;
   }
-
+  .carousel {
+    width: 80% !important;
+  }
+  .carousel {
+    height: auto !important;
+  }
+  .carousel-caption h3 {
+    font-size: 1rem !important;
+  }
+  #choi1 {
+    padding-left: 0px !important;
+  }
   #wisecol9 {
     padding-top: 0% !important;
-    flex: 67% !important;
-    max-width: 67% !important;
+    flex: 100% !important;
+    max-width: 100% !important;
     text-align: center !important;
+    padding-left: 0% !important;
+  }
+  #five,
+  #six {
+    background-size: 100% !important;
   }
   #christmas #left h1 span {
-    font-size: 10rem !important;
+    font-size: 6rem !important;
   }
   #christmas {
     padding-top: 15% !important;
   }
   #explanation {
-    padding-top: 10% !important;
+    flex: 50% !important;
+    max-width: 50% !important;
+    padding-top: 20% !important;
   }
   #explanation h1 {
     text-align: right !important;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
   #explanation p {
     text-align: right !important;
-    font-size: 1.5rem !important;
+    font-size: 0.9rem !important;
+  }
+  #sakurarow {
+    padding-top: 20% !important;
+  }
+  #sakurarow #left h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.5 !important;
+  }
+  #wisewallet {
+    width: 80% !important;
   }
   #contact {
     padding-top: 10% !important;
@@ -1025,96 +889,499 @@
   #orangeOutline,
   #redOutline,
   #blueOutline {
-    font-size: 8rem !important;
+    font-size: 5rem !important;
+  }
+  #wisecol3 #caption #left h1 {
+    font-size: 1rem !important;
+    line-height: 1 !important;
+  }
+  #wisecol3 #caption #left h3 {
+    font-size: 1rem !important;
+    line-height: 1 !important;
+  }
+  #orangeOutline {
+    color: white;
+    -webkit-text-stroke: 6px #fbab1a !important;
+  }
+
+  #redOutline {
+    color: white;
+    -webkit-text-stroke: 6px #e74725 !important;
+  }
+
+  #blueOutline {
+    color: white;
+    -webkit-text-stroke: 6px #1773b4 !important;
+  }
+  #contact .col-sm-12 h4 {
+    font-size: 1rem !important;
   }
 }
-
-@media only screen and (min-width: 2000px) {
-  .namecard {
-    width: 18vw !important;
+@media only screen and (min-width: 1051px) {
+  .square h1 span {
+    font-size: 5rem !important;
+    font-weight: 700;
   }
-  .namecard h4 span {
-    font-weight: normal !important;
+  #scroll {
+    font-size: 1rem !important;
+  }
+  #so {
+    color: #ffffff;
+    -webkit-text-stroke: 5px #faa91a;
+    opacity: 0;
+  }
+  @keyframes fillColor {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      color: #faa91a;
+      -webkit-text-stroke: 7px #faa91a;
+      opacity: 1;
+    }
+  }
+  #arrow {
+    padding-top: 2.5% !important;
+    width: 10% !important;
+  }
+  #arrow1 {
+    padding-top: 1% !important;
+    width: 10% !important;
+  }
+  #navi h1 span {
     font-size: 2rem !important;
+    padding-left: 20% !important;
+  }
+  #blue {
+    font-size: 5.5rem !important;
+  }
+  #left h3 span {
+    font-size: 1.5rem !important;
+  }
+  #left h3 {
+    line-height: 0.3 !important;
+  }
+  #left {
+    padding-right: 0px !important;
+  }
+  #left h3 {
+    text-align: left !important;
+  }
+  #para {
+    padding-right: 0px !important;
+  }
+  #para p {
+    font-size: 1.2rem !important;
   }
   #myportrait {
     width: 50vw !important;
+  }
+  #face {
+    width: 50% !important;
   }
   .wrapper {
     width: 1450vw !important;
   }
   .namecard {
-    width: 30vw !important;
-  }
-  .namecard h4 span {
-    font-weight: normal !important;
-    font-size: 2rem !important;
-  }
-  #face {
-    width: 55% !important;
+    width: 20vw !important;
   }
   #right {
-    max-width: 55% !important;
+    max-width: 50% !important;
   }
-  #workcol p {
-    font-size: 2rem !important;
+  .namecard h4 span {
+    font-weight: bold !important;
+    font-size: 1rem !important;
+  }
+  .namecard h4 {
+    line-height: 0.8 !important;
+  }
+  #green {
+    font-size: 3.5rem !important;
+  }
+  #skillCol {
+    flex: 33% !important;
+    max-width: 33% !important;
+    padding-bottom: 33% !important;
+  }
+  #skillCol h4 {
+    line-height: 1.2 !important;
+  }
+  #skillCol h4 span {
+    font-size: 1.2rem !important;
+  }
+  #work1 span {
+    font-size: 3.5rem !important;
+  }
+  #workcol {
+    padding-top: 0.5% !important;
   }
   #work2 {
-    padding-left: 0% !important;
+    padding-left: 0.5% !important;
+  }
+  #work2 h1 span {
+    font-size: 8rem !important;
+    line-height: 0.8 !important;
+  }
+  #workcol p {
+    font-size: 1.2rem !important;
+  }
+  #workcol img {
+    width: 20% !important;
   }
   #leaf {
-    width: 10% !important;
+    width: 8% !important;
   }
   #mont span {
-    font-size: 9rem !important;
+    font-size: 5.5rem !important;
   }
   #left #exp,
   #lang,
   #pos {
-    padding-left: 23% !important;
+    padding-left: 20% !important;
+    line-height: 0.8 !important;
   }
   #deed {
-    padding-left: 46% !important;
+    padding-left: 40% !important;
+    line-height: 0.8 !important;
   }
   #left #exp span,
   #lang span,
   #pos span,
   #deed span {
-    font-size: 2rem !important;
+    font-size: 1.2rem !important;
+  }
+  #wisecol3 {
+    max-width: 40% !important;
+    flex: 40% !important;
+    padding-left: 0px !important;
+  }
+
+  #caption {
+    margin-top: 40% !important;
+    margin-left: 0% !important;
+    padding-right: 2% !important;
+  }
+  .carousel {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1rem !important;
+  }
+
+  #wisecol9 {
+    padding-top: 0% !important;
+    flex: 55% !important;
+    max-width: 55% !important;
+    text-align: center !important;
+    padding-left: 0% !important;
+  }
+  #five,
+  #six {
+    background-size: 100% !important;
   }
   #christmas #left h1 span {
-    font-size: 12rem !important;
+    font-size: 5.2rem !important;
   }
   #christmas {
     padding-top: 10% !important;
   }
   #explanation {
+    flex: 50% !important;
+    max-width: 50% !important;
     padding-top: 10% !important;
   }
   #explanation h1 {
     text-align: right !important;
-    font-size: 3rem !important;
+    font-size: 1.5rem !important;
   }
   #explanation p {
     text-align: right !important;
+    font-size: 1rem !important;
+  }
+  #sakurarow {
+    padding-top: 5% !important;
+  }
+  #sakurarow img {
+    width: 60% !important;
+  }
+  #sakurarow #left h3 {
+    font-size: 1.2rem !important;
+    line-height: 1 !important;
+  }
+  #wisewallet {
+    width: 100% !important;
+  }
+  #contact {
+    padding-top: 5% !important;
+  }
+  #orangeOutline,
+  #redOutline,
+  #blueOutline {
+    font-size: 5rem !important;
+  }
+  #wisecol3 #caption #left h1 {
+    font-size: 1rem !important;
+    line-height: 1 !important;
+  }
+  #wisecol3 #caption #left h3 {
+    font-size: 1rem !important;
+    line-height: 1 !important;
+  }
+  #orangeOutline {
+    color: white;
+    -webkit-text-stroke: 6px #fbab1a !important;
+  }
+
+  #redOutline {
+    color: white;
+    -webkit-text-stroke: 6px #e74725 !important;
+  }
+
+  #blueOutline {
+    color: white;
+    -webkit-text-stroke: 6px #1773b4 !important;
+  }
+  #contact .col-sm-12 h4 {
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .square h1 span {
+    font-size: 5rem !important;
+    font-weight: 700;
+  }
+  .square {
+    width: 40vw !important;
+  }
+  #scroll {
+    font-size: 1rem !important;
+  }
+  #so {
+    color: #ffffff;
+    -webkit-text-stroke: 5px #faa91a;
+    opacity: 0;
+  }
+  @keyframes fillColor {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      color: #faa91a;
+      -webkit-text-stroke: 7px #faa91a;
+      opacity: 1;
+    }
+  }
+  #arrow {
+    padding-top: 2.5% !important;
+    width: 15% !important;
+  }
+  #arrow1 {
+    padding-top: 1% !important;
+    width: 5% !important;
+  }
+  #navi h1 span {
+    font-size: 2rem !important;
+    padding-left: 20% !important;
+  }
+  #blue {
+    font-size: 5.5rem !important;
+  }
+  #left h3 span {
     font-size: 1.5rem !important;
+  }
+  #left h3 {
+    line-height: 0.3 !important;
+  }
+  #left {
+    padding-right: 0px !important;
+  }
+  #left h3 {
+    text-align: left !important;
+  }
+  #para {
+    padding-right: 0px !important;
+  }
+  #para p {
+    font-size: 1.2rem !important;
+  }
+  #myportrait {
+    width: 50vw !important;
+  }
+  #face {
+    width: 40% !important;
+  }
+  .wrapper {
+    width: 1450vw !important;
+  }
+  .namecard {
+    width: 20vw !important;
+  }
+  #right {
+    max-width: 40% !important;
+  }
+  .namecard h4 span {
+    font-weight: bold !important;
+    font-size: 1rem !important;
+  }
+  .namecard h4 {
+    line-height: 0.8 !important;
+  }
+  #green {
+    font-size: 3.5rem !important;
+  }
+  #skillCol {
+    flex: 33% !important;
+    max-width: 33% !important;
+    padding-bottom: 33% !important;
+  }
+  #skillCol h4 {
+    line-height: 1.2 !important;
+  }
+  #skillCol h4 span {
+    font-size: 1.2rem !important;
+  }
+  #work1 span {
+    font-size: 3.5rem !important;
+  }
+  #workcol {
+    padding-top: 0.5% !important;
+  }
+  #work2 {
+    padding-left: 0.5% !important;
+  }
+  #work2 h1 span {
+    font-size: 8rem !important;
+    line-height: 0.8 !important;
+  }
+  #workcol p {
+    font-size: 1.4rem !important;
+  }
+  #workcol img {
+    width: 10% !important;
+  }
+  #leaf {
+    width: 8% !important;
+  }
+  #mont span {
+    font-size: 5.5rem !important;
+  }
+  #left #exp,
+  #lang,
+  #pos {
+    padding-left: 30% !important;
+    line-height: 0.8 !important;
+  }
+  #deed {
+    padding-left: 60% !important;
+    line-height: 0.8 !important;
+  }
+  #left #exp span,
+  #lang span,
+  #pos span,
+  #deed span {
+    font-size: 1.2rem !important;
+  }
+  #wisecol3 {
+    max-width: 55% !important;
+    flex: 55% !important;
+    padding-left: 0px !important;
+  }
+
+  #caption {
+    margin-top: 20% !important;
+    margin-left: 0% !important;
+    padding-right: 2% !important;
+  }
+  .carousel {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1rem !important;
   }
 
   #wisecol9 {
+    padding-top: 0% !important;
+    flex: 45% !important;
     max-width: 50% !important;
-    flex: 50% !important;
-    padding-right: 0% !important;
+    text-align: center !important;
+    padding-left: 0% !important;
   }
-  #caption {
-    margin-top: 50% !important;
+  #five,
+  #six {
+    background-size: 80% !important;
   }
-  #arrow {
-    width: 10% !important;
+  #christmas #left h1 span {
+    font-size: 5.2rem !important;
   }
-  #sakurarow {
+  #christmas {
     padding-top: 8% !important;
   }
+  #explanation {
+    flex: 50% !important;
+    max-width: 50% !important;
+    padding-top: 5% !important;
+  }
+  #explanation h1 {
+    text-align: right !important;
+    font-size: 1.2rem !important;
+  }
+  #explanation p {
+    text-align: right !important;
+    font-size: 1.2rem !important;
+  }
+  #sakurarow {
+    padding-top: 5% !important;
+  }
+  #sakurarow img {
+    width: 40% !important;
+  }
+  #sakurarow #left h3 {
+    font-size: 1.2rem !important;
+    line-height: 1 !important;
+  }
+  #wisewallet {
+    width: 100% !important;
+  }
+  #contact {
+    padding-top: 5% !important;
+  }
+  #orangeOutline,
+  #redOutline,
+  #blueOutline {
+    font-size: 5rem !important;
+  }
+  #wisecol3 #caption #left h1 {
+    font-size: 1rem !important;
+    line-height: 1 !important;
+  }
+  #wisecol3 #caption #left h3 {
+    font-size: 1rem !important;
+    line-height: 1 !important;
+  }
+  #orangeOutline {
+    color: white;
+    -webkit-text-stroke: 6px #fbab1a !important;
+  }
+
+  #redOutline {
+    color: white;
+    -webkit-text-stroke: 6px #e74725 !important;
+  }
+
+  #blueOutline {
+    color: white;
+    -webkit-text-stroke: 6px #1773b4 !important;
+  }
+  #contact .col-sm-12 h4 {
+    font-size: 1rem !important;
+  }
 }
+
 body {
   background-color: #ffffff;
   font-family: "Libre Franklin", sans-serif;
@@ -1147,19 +1414,6 @@ h1 span {
   -webkit-text-stroke: 12px #faa91a;
   font-size: 10rem;
   opacity: 0;
-}
-
-@keyframes fillColor {
-  0% {
-    color: #ffffff;
-    -webkit-text-stroke: 12px #faa91a;
-    opacity: 1;
-  }
-  100% {
-    color: #faa91a;
-    -webkit-text-stroke: 12px #faa91a;
-    opacity: 1;
-  }
 }
 
 .slide {
